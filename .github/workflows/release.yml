@@ -125,7 +125,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.cargo.outputs.bin }}-${{ matrix.platform }}
+          name: ${{ steps.cargo.outputs.bin }}-${{ matrix.platform }}-${{ steps.meta.outputs.version }}
           path: |
             ${{ steps.prep_win.outputs.artifact || steps.prep_unix.outputs.artifact }}
             ${{ steps.prep_win.outputs.artifact || steps.prep_unix.outputs.artifact }}.sha256
@@ -234,11 +234,11 @@ jobs:
           SHA_MAC_ARM: ${{ steps.sha.outputs.mac_arm }}
         run: |
           BASE="https://github.com/${REPO}/releases/download/${TAG}"
-          WIN_FILE="${MOD_ID}-${VERSION}-windows-x86_64.exe"
-          LNX_FILE="${MOD_ID}-${VERSION}-linux-x86_64"
-          ARM_FILE="${MOD_ID}-${VERSION}-linux-aarch64"
-          MAC_FILE="${MOD_ID}-${VERSION}-darwin-x86_64"
-          MAC_ARM_FILE="${MOD_ID}-${VERSION}-darwin-aarch64"
+          WIN_FILE="${MOD_ID-windows-x86_64.exe}-${VERSION}"
+          LNX_FILE="${MOD_ID}-linux-x86_64-${VERSION}"
+          ARM_FILE="${MOD_ID}-linux-aarch64-${VERSION}"
+          MAC_FILE="${MOD_ID}-darwin-x86_64-${VERSION}"
+          MAC_ARM_FILE="${MOD_ID}-darwin-aarch64-${VERSION}"
 
           DESC=$(jq -r '.description // ""' registry.json)
           TAGS=$(jq    '.tags        // []' registry.json)
