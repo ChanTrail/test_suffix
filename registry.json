@@ -7,19 +7,19 @@
     "rename",
     "test"
   ],
-  "latestVersion": "0.1.1",
+  "latestVersion": "0.1.2",
   "downloads": {
-    "windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.1/test_suffix-0.1.1-windows-x86_64.exe",
-    "linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.1/test_suffix-0.1.1-linux-x86_64",
-    "linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.1/test_suffix-0.1.1-linux-aarch64",
-    "darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.1/test_suffix-0.1.1-darwin-x86_64",
-    "darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.1/test_suffix-0.1.1-darwin-aarch64"
+    "windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-0.1.2",
+    "linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-linux-x86_64-0.1.2",
+    "linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-linux-aarch64-0.1.2",
+    "darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-darwin-x86_64-0.1.2",
+    "darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-darwin-aarch64-0.1.2"
   },
   "sha256": {
-    "windows-x86_64": "3b976fb0e14d4e10305ecbe6b5bf0634876fc59fcd55bf463d884d5d1015f6bb",
-    "linux-x86_64": "e8a991cf7cfd84910b53ed7ad8ac3214bb1d8edfcb225cbd09c29d84bef8bf33",
-    "linux-aarch64": "0fc9380e881d3f47e391c27b7e0ea079100bdd8f71bb26dc2f74e6f4ce74212e",
-    "darwin-x86_64": "83d84b43697235e4515c48087d47332cbec9221cb68c219fdaba04e50267dd11",
-    "darwin-aarch64": "67e2702415a04ff3ebdf17a6b9233549d75c11a89fa9a8309277cf2361f0370f"
+    "windows-x86_64": "955af864d291ec3df5dea3dba21c9de6655082823354095ae5cfa735d5a0a21f",
+    "linux-x86_64": "355939058a5012b6f5e443be3b512a46ffa2a5e4149f50654f43097494b8ee07",
+    "linux-aarch64": "8587ac7ebe37dbd1e93f5cdcbe306a41b534e76eb7fcf698cf97a4d431e71d2a",
+    "darwin-x86_64": "40c08b149972438364ddc0e2a4259fde2b5f4072fcdc88f237be91c32f8dd9a5",
+    "darwin-aarch64": "dfc800d38abd7e11af414a9cc4540b6818dfb43a1e25c94b6066c7ef8e258cf1"
   }
 }
