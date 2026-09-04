@@ -1,0 +1,25 @@
+{
+  "id": "test_suffix",
+  "name": "Test Suffix",
+  "description": "Renames the input video file by appending a configurable suffix to its stem, e.g. video.mp4 → video_done.mp4",
+  "author": "ChanTrail",
+  "tags": [
+    "rename",
+    "test"
+  ],
+  "latestVersion": "0.1.6",
+  "downloads": {
+    "windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-0.1.6-windows-x86_64.exe",
+    "linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-0.1.6-linux-x86_64",
+    "linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-0.1.6-linux-aarch64",
+    "darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-0.1.6-darwin-x86_64",
+    "darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-0.1.6-darwin-aarch64"
+  },
+  "sha256": {
+    "windows-x86_64": "ca466d34c32664b18af5d71275ceb8868c157ac063bddb59efa571a7c8200d54",
+    "linux-x86_64": "2d9058e96ed1b5cda4e2c0e9af84ef0a2129845da197d3ded7a65bf9961340a1",
+    "linux-aarch64": "e7a43ad7e48e3d1fea0f00abb78c527b009ca71be9fad8ad633aac2ad56a85e0",
+    "darwin-x86_64": "9710da1f3067b4c540203e6df43dbabad3e04f9a53b685cc0fd776d81778c845",
+    "darwin-aarch64": "4f07b30908fe83d212154aee43b58ca0561f084c800de50fa41d212014322acd"
+  }
+}
