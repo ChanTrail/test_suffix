@@ -1,23 +1,25 @@
 {
-	"id": "test_suffix",
-	"name": "Test Suffix",
-	"description": "Renames the input video file by appending a configurable suffix to its stem, e.g. video.mp4 → video_done.mp4",
-	"author": "ChanTrail",
-	"tags": ["rename", "test"],
-	"license": "GPL-3.0",
-	"latestVersion": "0.1.2",
-	"downloads": {
-		"windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-0.1.2",
-		"linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-linux-x86_64-0.1.2",
-		"linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-linux-aarch64-0.1.2",
-		"darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-darwin-x86_64-0.1.2",
-		"darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.2/test_suffix-darwin-aarch64-0.1.2"
-	},
-	"sha256": {
-		"windows-x86_64": "955af864d291ec3df5dea3dba21c9de6655082823354095ae5cfa735d5a0a21f",
-		"linux-x86_64": "355939058a5012b6f5e443be3b512a46ffa2a5e4149f50654f43097494b8ee07",
-		"linux-aarch64": "8587ac7ebe37dbd1e93f5cdcbe306a41b534e76eb7fcf698cf97a4d431e71d2a",
-		"darwin-x86_64": "40c08b149972438364ddc0e2a4259fde2b5f4072fcdc88f237be91c32f8dd9a5",
-		"darwin-aarch64": "dfc800d38abd7e11af414a9cc4540b6818dfb43a1e25c94b6066c7ef8e258cf1"
-	}
+  "id": "test_suffix",
+  "name": "Test Suffix",
+  "description": "Renames the input video file by appending a configurable suffix to its stem, e.g. video.mp4 → video_done.mp4",
+  "author": "ChanTrail",
+  "tags": [
+    "rename",
+    "test"
+  ],
+  "latestVersion": "0.1.4",
+  "downloads": {
+    "windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.4/test_suffix-windows-x86_64-0.1.4.exe",
+    "linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.4/test_suffix-linux-x86_64-0.1.4",
+    "linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.4/test_suffix-linux-aarch64-0.1.4",
+    "darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.4/test_suffix-darwin-x86_64-0.1.4",
+    "darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.4/test_suffix-darwin-aarch64-0.1.4"
+  },
+  "sha256": {
+    "windows-x86_64": "783083971a502287567c8166a96dd51b845daff0a614bc0a8406ddf42d9446c6",
+    "linux-x86_64": "b0812705fc6161d6ae6833ab535cda18ece119c9ef03d582fe2f87e993205f62",
+    "linux-aarch64": "d8b8738c46b660e4d86761ebb861ceba34c7e74a946a17d6dd0bb6b179ba425f",
+    "darwin-x86_64": "2bf410f503db98a02c0a28e754cab27026d192b490728c88d00669066e1bcff1",
+    "darwin-aarch64": "c139a96152c76e43aca85a3a0c83fac7b5ef6ffb30a7c2c8c02f61d1e58c9cae"
+  }
 }
