@@ -10,14 +10,12 @@
   "license": "GPL-3.0",
   "latestVersion": "0.1.6",
   "downloads": {
-    "windows-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-windows-x86_64-0.1.6.exe",
     "linux-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-linux-x86_64-0.1.6",
     "linux-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-linux-aarch64-0.1.6",
     "darwin-x86_64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-darwin-x86_64-0.1.6",
     "darwin-aarch64": "https://github.com/ChanTrail/test_suffix/releases/download/v0.1.6/test_suffix-darwin-aarch64-0.1.6"
   },
   "sha256": {
-    "windows-x86_64": "415cde7b1669f2df491cfd3aca6903cf4506a5ec6f41cd65aaca0f48e9f7223b",
     "linux-x86_64": "2d9058e96ed1b5cda4e2c0e9af84ef0a2129845da197d3ded7a65bf9961340a1",
     "linux-aarch64": "e7a43ad7e48e3d1fea0f00abb78c527b009ca71be9fad8ad633aac2ad56a85e0",
     "darwin-x86_64": "9710da1f3067b4c540203e6df43dbabad3e04f9a53b685cc0fd776d81778c845",
